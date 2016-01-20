@@ -6,10 +6,10 @@ header('Access-Control-Allow-Headers: Content-Type, Content-Range, Content-Dispo
 
  
 // include db connect class details
-$host="mysql14.000webhost.com";
-	$uname="a7196929_ed";
-	$pwd='manu11930';
-	$db="a7196929_ed";
+$host="trafficprediction-pesitccbd.rhcloud.com";
+	$uname="adminN4ydLgn";
+	$pwd='CmShlqHHUzYf';
+	$db="trafficprediction";
 
 	$con = mysql_connect($host,$uname,$pwd) or die("connection failed");
 	mysql_select_db($db,$con) or die("db selection failed");
